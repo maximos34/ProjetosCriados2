@@ -1,0 +1,91 @@
+
+.container{
+  display:flex;
+  flex-direction: row;
+  justify-content:center ;
+  align-items: center;
+  margin: 0 23rem;
+  background:none;
+ 
+}
+
+.informations{
+  display:flex;
+  flex-direction: column;
+  margin-left:7.25rem;
+  
+}
+
+.text{
+  font-family:var(--tex);
+  font-size:2rem;
+  line-height:3.2rem;
+  font-weight: 400;
+  word-wrap:break-word;
+  color:var(--white);
+  margin-bottom: 4.233rem;;
+}
+
+.plus{
+  display:flex;
+  justify-content:space-around;
+}
+
+.temp{
+  display:flex;
+  color:var(--white);
+  font-family: var(--tex);
+  font-size:2.4rem;
+  margin-bottom:4.4rem;
+}
+
+.time{
+  width: 2.5rem;
+  height:2.5rem;
+  
+}
+
+.date{
+  font-family:var(--tex);
+  color:var(--white);
+  font-size:2.4rem;
+}
+
+.stars{
+  width: 3.333rem;
+  height:3.17rem;
+  display: flex;
+  
+}
+
+.date{
+  font-family: var(--tex);
+  color: var(--white);
+  font-size: 2.4rem;
+  margin-left:11.333rem;
+}
+
+.btns{
+  display: flex;
+  gap:2.1rem ;
+}
+
+.play{
+width: 18.4rem;
+height:5.2rem;
+background-color: var(--blue);
+font-family: var(--tex);
+font-size:1.6rem;
+color: var(--white)
+}
+
+.trailer{
+  width:11.5rem ;
+  height:5.2rem ;
+  background:none;
+  font-family: var(--tex);
+  font-size:1.6rem;
+  color: var(--white);
+  border: 0.1rem solid var(--white);
+  border-radius: 0.3rem;
+}

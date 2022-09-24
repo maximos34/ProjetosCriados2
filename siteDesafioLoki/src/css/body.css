@@ -1,0 +1,38 @@
+@import url(style.css);
+
+body {
+  width: 1440px;
+  height: 810px;
+  background:#000000;
+}
+
+.App{
+  margin:4.5rem 17rem;
+  width: 1440px;
+height: 720px;
+position: absolute;
+  background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/jpg/back.jpg);
+  background-position:center;
+  background-size:cover;
+  
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:12.1rem;
+  margin-top:4.5rem;
+}
+
+h2{
+  font-family:var(--text) ;
+  color: var(--white);
+  font-size:2rem;
+}
+
+h1{
+  font-family:var(--text);
+  color: var(--white);
+  font-size: 9.6rem;
+}

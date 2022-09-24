@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+:root{
+  --yellow:#FFA800;
+  --white:#ffffff;
+  --dark:#131318;
+  --blue:#0072d2;
+  --text:'B612', sans-serif;
+}
